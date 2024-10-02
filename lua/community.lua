@@ -32,4 +32,5 @@ return {
   { import = "astrocommunity.recipes.telescope-lsp-mappings" },
   { import = "astrocommunity.editing-support.multiple-cursors-nvim" },
   { import = "astrocommunity.motion.hop-nvim" },
+  { import = "astrocommunity.motion.nvim-surround" },
 }
