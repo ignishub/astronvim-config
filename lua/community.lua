@@ -33,4 +33,11 @@ return {
   { import = "astrocommunity.editing-support.multiple-cursors-nvim" },
   { import = "astrocommunity.motion.hop-nvim" },
   { import = "astrocommunity.motion.nvim-surround" },
+  { import = "astrocommunity.lsp.lsp-signature-nvim" },
+  { import = "astrocommunity.lsp.lsp-lens-nvim" },
+  { import = "astrocommunity.lsp.lsplinks-nvim" },
+  { import = "astrocommunity.indent.indent-rainbowline" },
+  { import = "astrocommunity.recipes.astrolsp-auto-signature-help" },
+  { import = "astrocommunity.recipes.heirline-clock-statusline" },
+  { import = "astrocommunity.indent.indent-blankline-nvim" },
 }
