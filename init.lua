@@ -18,6 +18,8 @@ end
 require "lazy_setup"
 require "polish"
 
-vim.opt.scrolloff = math.floor(vim.opt.lines:get() / 4)
+vim.opt.scrolloff = math.floor(vim.opt.lines:get() / 2)
 vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
+vim.o.langmap =
+  "ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz"
